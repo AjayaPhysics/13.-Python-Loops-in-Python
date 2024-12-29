@@ -1,0 +1,11 @@
+# Example: Search for a number in a list
+numbers = [1, 3, 5, 7, 9]
+target = 7
+found = False
+index = 0
+
+while not found and index < len(numbers):
+    if numbers[index] == target:
+        print(f"Found {target} at index {index}.")
+        found = True
+    index += 1
