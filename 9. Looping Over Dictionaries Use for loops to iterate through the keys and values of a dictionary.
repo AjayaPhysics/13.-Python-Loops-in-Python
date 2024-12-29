@@ -1,0 +1,4 @@
+# Example: Iterating through a dictionary
+student = {"name": "Ajaya", "age": 40, "grade": "A"}
+for key, value in student.items():
+    print(f"{key}: {value}")
