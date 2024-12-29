@@ -1,0 +1,8 @@
+# Example: Asking for a password
+while True:
+    password = input("Enter the password: ")
+    if password == "Ajaya123":
+        print("Access granted!")
+        break
+    else:
+        print("Incorrect password, try again.")
