@@ -1,0 +1,9 @@
+# Example: Simulate population growth until it reaches a target
+population = 1000
+target = 2000
+growth_rate = 0.1  # 10% growth rate
+
+while population < target:
+    population += population * growth_rate
+    print(f"Population: {int(population)}")
+print("Target population reached!")
