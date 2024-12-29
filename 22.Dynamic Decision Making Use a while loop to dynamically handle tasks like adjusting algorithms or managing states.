@@ -1,0 +1,9 @@
+# Example: Adjusting learning rate
+learning_rate = 1.0
+target_accuracy = 95.0
+current_accuracy = 50.0
+
+while current_accuracy < target_accuracy:
+    learning_rate *= 0.9
+    current_accuracy += learning_rate * 5
+    print(f"Learning rate: {learning_rate}, Accuracy: {current_accuracy}%")
