@@ -1,0 +1,6 @@
+# Checking vowels in a string
+sentence = "Ajaya Physics!"
+vowels = "aeiou"
+for char in sentence.lower():
+    if char in vowels:
+        print(f"Vowel found: {char}")
