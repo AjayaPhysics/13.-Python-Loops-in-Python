@@ -1,0 +1,4 @@
+# Example: Iterating through a string
+word = "Ajaya Physics"
+for char in word:
+    print(char)
