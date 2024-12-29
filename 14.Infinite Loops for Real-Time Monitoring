@@ -1,0 +1,11 @@
+# Example: Infinite loop monitoring a counter
+import time
+
+counter = 0
+while True:
+    print(f"Counter: {counter}")
+    counter += 1
+    time.sleep(1)  # Pause for 1 second
+    if counter > 5:  # Exit condition
+        print("Stopping the loop.")
+        break
