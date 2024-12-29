@@ -1,0 +1,6 @@
+# Example: Countdown timer
+seconds = 5
+while seconds > 0:
+    print(f"{seconds} seconds remaining...")
+    seconds -= 1
+print("Time's up!")
