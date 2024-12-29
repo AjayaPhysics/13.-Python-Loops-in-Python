@@ -1,0 +1,8 @@
+# Example: Reading file line by line
+file = open("example.txt", "r")
+line = file.readline()
+
+while line:
+    print(line.strip())  # Print each line without trailing newline
+    line = file.readline()
+file.close()
